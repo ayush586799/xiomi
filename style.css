@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clear{
+    clear: both;
+}
+
+ul{
+    list-style: none;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.container
+{
+    margin: 0px auto;
+    width: 1200px;
+}
+
+/* Start Nav Bar */
+
+#nav{
+    background-color: black;
+}
+
+#nav .container{
+    height: 35px;
+}
+
+#nav .container .col_one.left ul li,
+#nav .container .col_two.right ul li{
+    color: #757575;
+    float: left;
+    font-family: ProximaNova,Arial,Sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 9px 20px 0px 0px;
+}
+
+#nav .container .col_one.left ul li:hover,
+#nav .container .col_two.right ul li:hover{
+    color: whitesmoke;
+}
+
+/* Start Row One */
+
+#row_one{
+    background-color: teal;
+    height: 60px;
+}
+
+#row_one .container .col_one.left img{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}
+
+#row_one .container .col_two.right ul li{
+    color: whitesmoke;
+    float: left;
+    font-weight: bold;
+    margin: 20px 28px 0px 0px;
+}
+
+#row_one .container .col_two.right ul li:hover{
+    color: orange;   
+}
+
+/* Start Row Two */
+
+#row_two{
+    background-image: url('./imeges/xiaomi.jpg');
+    height: 600px;
+    width: 100%;
+}
+
+/* Start Row Three */
+
+#row_three{
+    height: 380px;
+    width: 100%;
+}
+
+#row_three .container .col_one.left .box{
+    float: left;
+    margin: 15px 10px 0px 0px;
+    height: 230px;
+    width: 390px;
+}
+
+#row_three .container .col_two.right,
+#row_three .container .col_two.right img{
+    float: right;
+    margin-top: 8px;
+    height: 120px;
+    width: 1200px;
+}
+
+/* Start Row Four */
+
+#row_four{
+    height: 90px;
+    width: 100%;
+}
+
+#row_four .container p{
+    color: #757575;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+/* Start Row Five */
+
+#row_five{
+    height: 500px;
+    width: 100%;
+}
+
+#row_five .container .col_one.left .box img{
+    height: 500px;
+    width: 590px;
+}
+
+#row_five .container .col_two.left .box{
+    float: left;
+    margin: 0px 0px 0px 11px;
+    height: 245px;
+    width: 293px;
+}
+
+#row_five .container .col_three.right .box img{
+    margin-top: 8px;
+    height: 245px;
+    width: 600px;
+}
+
+#row_five .container .col_two.left .box img{
+    height: 245px;
+    width: 293px;
+}
+
+/* Start Row Six */
+
+#row_six{
+    height: 90px;
+    width: 100%;
+}
+
+#row_six .container p{
+    color: #757575;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+/* Start Row Seven */
+
+#row_seven{
+    height: 350px;
+    width: 100%;
+}
+
+#row_seven .container{
+    height: 335px;
+} 
+
+video{
+    margin-top: -16px;
+    margin-left: 1px;
+}
+
+/* Start Row Eight */
+
+#row_eight{
+    height: 100px;
+    width: 100%;
+}
+
+#row_eight .container{
+    margin-top: 100px;
+    height: 100px;
+    width: 1200px;
+}
+
+#row_eight .container .col_one .box{
+    height: 50px;
+    width: 260px;
+}
+
+#row_eight .container .col_two.left .box{
+    
+    border-color: #757575;
+    height: 20px;
+    width: 250px;
+}
+
+#row_eight .container .col_three.right .box{
+    height: 50px;
+    width: 200px;
+}
+
+/* Start Row Nine*/
+
+#row_nine{
+    background-color: rgb(33, 32, 32);
+    height: 450px;
+    width: 100%;
+}
+
+#row_nine .container{
+    height: 450px;
+    width: 1200px;
+}
+
+#row_nine .container .col_one.left{
+    margin-right: 55px;
+} 
+
+#row_nine .container .col_two.left{
+    margin-right: 55px;
+}
+
+#row_nine .container .col_three.left{
+    margin-right: 55px;
+}
+
+#row_nine .container .col_one.left h3,
+#row_nine .container .col_two.left h3,
+#row_nine .container .col_three.left h3,
+#row_nine .container .col_four.left h3{
+    color: #757575;
+}
+
+#row_nine .container .col_one.left ul li,
+#row_nine .container .col_two.left ul li,
+#row_nine .container .col_three.left ul li,
+#row_nine .container .col_four.left ul li{
+    margin: 10px 0px 10px 0px;
+    color: #757575;
+}
